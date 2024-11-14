@@ -1,4 +1,4 @@
-const RPC_URL = 'https://base.llamarpc.com';
+const RPC_URL = 'https://mainnet.base.org';
 
 function displayHeader() {
   process.stdout.write('\x1Bc');
@@ -14,7 +14,6 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 module.exports = {
   displayHeader,
-
   RPC_URL,
   delay,
 };
